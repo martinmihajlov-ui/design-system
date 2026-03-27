@@ -80,7 +80,7 @@ async function main() {
   // Download each SVG
   let downloaded = 0;
   for (const component of components) {
-    const { category, iconName } = parseName(component.name);
+    const { category, name: iconName } = parseName(component.name);
     const url = urls[component.node_id];
     if (!url) {
       console.warn(`  No URL for ${component.name}`);

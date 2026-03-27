@@ -1,0 +1,9 @@
+import * as React from 'react';
+interface Props extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+}
+const ArrowLineLeft = ({
+  size = 24,
+  ...props
+}: Props) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" width={size} height={size} {...props}><g clipPath="url(#a)"><path fill="currentColor" d="M3.636 11.293a1 1 0 0 0 0 1.414l5.657 5.657a1 1 0 0 0 1.414-1.414L6.757 13H20a1 1 0 0 0 0-2H6.757l3.95-3.95a1 1 0 0 0-1.414-1.414z" /></g><defs><clipPath id="a"><path fill="currentColor" d="M0 0h24v24H0z" /></clipPath></defs></svg>;
+export default ArrowLineLeft;

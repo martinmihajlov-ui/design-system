@@ -1,0 +1,9 @@
+import * as React from 'react';
+interface Props extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+}
+const Cashback = ({
+  size = 24,
+  ...props
+}: Props) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" width={size} height={size} {...props}><g clipPath="url(#a)"><path fill="currentColor" fillRule="evenodd" d="M12.406 6.414C15.491 5.043 18.61 5.463 20 5.77v10.96c-1.741-.33-5.06-.631-8.406.856-3.085 1.37-6.203.95-7.594.643V7.27c1.741.33 5.06.631 8.406-.856M20.53 3.84c-1.517-.348-5.21-.91-8.936.746-3.167 1.408-6.37.927-7.7.619C2.975 4.992 2 5.667 2 6.694v11.585c0 .85.552 1.67 1.47 1.88 1.517.348 5.21.911 8.936-.745 3.167-1.408 6.37-.927 7.7-.619.918.212 1.894-.462 1.894-1.489V5.721c0-.85-.552-1.67-1.47-1.88M10 12a2 2 0 1 1 4 0 2 2 0 0 1-4 0m2-4a4 4 0 1 0 0 8 4 4 0 0 0 0-8" clipRule="evenodd" /></g><defs><clipPath id="a"><path fill="currentColor" d="M0 0h24v24H0z" /></clipPath></defs></svg>;
+export default Cashback;

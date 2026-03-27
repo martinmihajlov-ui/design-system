@@ -1,0 +1,9 @@
+import * as React from 'react';
+interface Props extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+}
+const GoogleFill = ({
+  size = 24,
+  ...props
+}: Props) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" width={size} height={size} {...props}><g clipPath="url(#a)"><path fill="currentColor" fillRule="evenodd" d="M12 5.5a6.5 6.5 0 1 0 6.326 8H13a1.5 1.5 0 1 1 0-3h7a1.5 1.5 0 0 1 1.5 1.5 9.5 9.5 0 1 1-2.801-6.736 1.498 1.498 0 0 1-.48 2.448 1.5 1.5 0 0 1-1.636-.321A6.48 6.48 0 0 0 12 5.5" clipRule="evenodd" /></g><defs><clipPath id="a"><path fill="currentColor" d="M0 0h24v24H0z" /></clipPath></defs></svg>;
+export default GoogleFill;

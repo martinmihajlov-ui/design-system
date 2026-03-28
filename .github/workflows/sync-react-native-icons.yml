@@ -1,4 +1,4 @@
-name: Icons - Sync from Figma + Create React Native Components
+name: Icons - SVG + React + React Native (Figma Sync)
 
 # Run manually from GitHub by clicking a button
 on:

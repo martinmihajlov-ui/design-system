@@ -1,4 +1,4 @@
-name: Tokens - Colors (Figma Export)
+name: Tokens - Colors (Figma to JSON Export)
 
 # Run manually from GitHub Actions
 on:

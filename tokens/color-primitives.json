@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "color_name": "brand",
+    "input_hex": "#606FF4",
+    "input_oklch": {
+      "L": 0.6017,
+      "C": 0.1976,
+      "H": 274
+    },
+    "anchor_step": 500,
+    "generated_at": "2026-03-28T17:14:07.849Z",
+    "algorithm": {
+      "snap": "linear_reference_scale",
+      "l_distribution": "zone_based",
+      "zone_boundary": "200→300",
+      "gaps": {
+        "light_tints_50_200": 0.05,
+        "working_200_700": 0.08,
+        "dark_700_950": 0.1
+      },
+      "c_model": "gaussian",
+      "gaussian_sigma": 2.33,
+      "gaussian_target": "C at step 50 and 950 ≈ 10% of peak",
+      "h_strategy": "stable, drift ≤ ±5° only if gamut clamping exceeds 20% C reduction"
+    }
+  },
+  "scale": [
+    {
+      "figma_variable": "brand/50",
+      "oklch": {
+        "L": 0.9417,
+        "C": 0.0198,
+        "H": 274
+      },
+      "hex": "#E7EBF9",
+      "rgb": {
+        "r": 231,
+        "g": 235,
+        "b": 249
+      },
+      "meta": {
+        "step": 50,
+        "anchor": false,
+        "gamut_clamped": false,
+        "c_reduction_pct": 0,
+        "h_drift_deg": 0
+      }
+    },
+    {
+      "figma_variable": "brand/100",
+      "oklch": {
+        "L": 0.8917,
+        "C": 0.0453,
+        "H": 274
+      },
+      "hex": "#D2DAFA",
+      "rgb": {
+        "r": 210,
+        "g": 218,
+        "b": 250
+      },
+      "meta": {
+        "step": 100,
+        "anchor": false,
+        "gamut_clamped": false,
+        "c_reduction_pct": 0,
+        "h_drift_deg": 0
+      }
+    },
+    {
+      "figma_variable": "brand/200",
+      "oklch": {
+        "L": 0.8417,
+        "C": 0.0782,
+        "H": 274
+      },
+      "hex": "#BBC8FF",
+      "rgb": {
+        "r": 187,
+        "g": 200,
+        "b": 255
+      },
+      "meta": {
+        "step": 200,
+        "anchor": false,
+        "gamut_clamped": true,
+        "c_reduction_pct": 9.3,
+        "h_drift_deg": 0
+      }
+    },
+    {
+      "figma_variable": "brand/300",
+      "oklch": {
+        "L": 0.7617,
+        "C": 0.1217,
+        "H": 274
+      },
+      "hex": "#9AABFF",
+      "rgb": {
+        "r": 154,
+        "g": 171,
+        "b": 255
+      },
+      "meta": {
+        "step": 300,
+        "anchor": false,
+        "gamut_clamped": true,
+        "c_reduction_pct": 11,
+        "h_drift_deg": 0
+      }
+    },
+    {
+      "figma_variable": "brand/400",
+      "oklch": {
+        "L": 0.6817,
+        "C": 0.1682,
+        "H": 274
+      },
+      "hex": "#7A8DFF",
+      "rgb": {
+        "r": 122,
+        "g": 141,
+        "b": 255
+      },
+      "meta": {
+        "step": 400,
+        "anchor": false,
+        "gamut_clamped": true,
+        "c_reduction_pct": 6.7,
+        "h_drift_deg": 0
+      }
+    },
+    {
+      "figma_variable": "brand/500",
+      "oklch": {
+        "L": 0.6017,
+        "C": 0.1976,
+        "H": 274
+      },
+      "hex": "#606FF4",
+      "rgb": {
+        "r": 96,
+        "g": 111,
+        "b": 244
+      },
+      "meta": {
+        "step": 500,
+        "anchor": true,
+        "gamut_clamped": false,
+        "c_reduction_pct": 0,
+        "h_drift_deg": 0
+      }
+    },
+    {
+      "figma_variable": "brand/600",
+      "oklch": {
+        "L": 0.5217,
+        "C": 0.1802,
+        "H": 274
+      },
+      "hex": "#4D59CF",
+      "rgb": {
+        "r": 77,
+        "g": 89,
+        "b": 207
+      },
+      "meta": {
+        "step": 600,
+        "anchor": false,
+        "gamut_clamped": false,
+        "c_reduction_pct": 0,
+        "h_drift_deg": 0
+      }
+    },
+    {
+      "figma_variable": "brand/700",
+      "oklch": {
+        "L": 0.4417,
+        "C": 0.1367,
+        "H": 274
+      },
+      "hex": "#3E489D",
+      "rgb": {
+        "r": 62,
+        "g": 72,
+        "b": 157
+      },
+      "meta": {
+        "step": 700,
+        "anchor": false,
+        "gamut_clamped": false,
+        "c_reduction_pct": 0,
+        "h_drift_deg": 0
+      }
+    },
+    {
+      "figma_variable": "brand/800",
+      "oklch": {
+        "L": 0.3417,
+        "C": 0.0862,
+        "H": 274
+      },
+      "hex": "#2B3364",
+      "rgb": {
+        "r": 43,
+        "g": 51,
+        "b": 100
+      },
+      "meta": {
+        "step": 800,
+        "anchor": false,
+        "gamut_clamped": false,
+        "c_reduction_pct": 0,
+        "h_drift_deg": 0
+      }
+    },
+    {
+      "figma_variable": "brand/900",
+      "oklch": {
+        "L": 0.2417,
+        "C": 0.0453,
+        "H": 274
+      },
+      "hex": "#191E35",
+      "rgb": {
+        "r": 25,
+        "g": 30,
+        "b": 53
+      },
+      "meta": {
+        "step": 900,
+        "anchor": false,
+        "gamut_clamped": false,
+        "c_reduction_pct": 0,
+        "h_drift_deg": 0
+      }
+    },
+    {
+      "figma_variable": "brand/950",
+      "oklch": {
+        "L": 0.1417,
+        "C": 0.0198,
+        "H": 274
+      },
+      "hex": "#070912",
+      "rgb": {
+        "r": 7,
+        "g": 9,
+        "b": 18
+      },
+      "meta": {
+        "step": 950,
+        "anchor": false,
+        "gamut_clamped": false,
+        "c_reduction_pct": 0,
+        "h_drift_deg": 0
+      }
+    }
+  ]
+}

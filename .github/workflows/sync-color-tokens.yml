@@ -1,0 +1,42 @@
+name: Tokens - Colors (Figma Export)
+
+# Run manually from GitHub Actions
+on:
+  workflow_dispatch:
+
+# Allow the workflow to commit and push back to the repo
+permissions:
+  contents: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  export-color-tokens:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Export color tokens from Figma
+        run: node scripts/export-color-tokens.js
+        env:
+          FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
+          FIGMA_FILE_KEY: oWyNqsZJKJYF8SpZsBPb9P
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add tokens/color-primitives.json tokens/color-aliases-light.json tokens/color-aliases-dark.json
+          git diff --staged --quiet || git commit -m "chore: sync color tokens from Figma"
+          git push

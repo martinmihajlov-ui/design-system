@@ -1,5 +1,5 @@
 {
-  "name": "design-system",
+  "name": "caladan",
   "version": "1.0.0",
   "description": "Design system assets, tokens and icons",
   "main": "index.js",
@@ -14,16 +14,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/martinmihajlov-ui/design-system.git"
+    "url": "git+https://github.com/martin-designs/caladan.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/martinmihajlov-ui/design-system/issues"
+    "url": "https://github.com/martin-designs/caladan/issues"
   },
-  "homepage": "https://github.com/martinmihajlov-ui/design-system#readme",
+  "homepage": "https://github.com/martin-designs/caladan#readme",
   "devDependencies": {
     "@svgr/core": "^8.1.0",
     "@svgr/plugin-jsx": "^8.1.0",

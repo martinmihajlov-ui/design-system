@@ -8,7 +8,9 @@
     "export-spacing-tokens": "node scripts/export-spacing-tokens.js",
     "optimize-icons": "svgo --config svgo.config.js -rf icons/svg",
     "build-react-icons": "node scripts/build-react-icons.js",
-    "build-react-native-icons": "node scripts/build-react-native-icons.js"
+    "build-react-native-icons": "node scripts/build-react-native-icons.js",
+    "export-typography-tokens": "node scripts/export-typography-tokens.js",
+    "build-tokens": "node scripts/build-tokens.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,7 @@
     "@svgr/plugin-jsx": "^8.1.0",
     "@svgr/plugin-prettier": "^8.1.0",
     "prettier": "^3.8.1",
+    "style-dictionary": "^4.4.0",
     "svgo": "^4.0.1",
     "typescript": "^6.0.2"
   }

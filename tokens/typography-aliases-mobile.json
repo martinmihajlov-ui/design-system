@@ -1,0 +1,195 @@
+{
+  "$metadata": {
+    "version": "1.0.0",
+    "generated_at": "2026-03-29T13:00:00.000Z",
+    "source": "Figma · Typography - Alias · VariableCollectionId:13:267 · Mobile",
+    "figma_file": "oWyNqsZJKJYF8SpZsBPb9P"
+  },
+  "font-size": {
+    "$type": "dimension",
+    "heading-xxl": {
+      "$value": "{font-size.700}",
+      "$description": "Heading XXL font size on mobile — 39px (one step down from desktop 49px)",
+      "$extensions": { "caladan": { "figma-variable": "font-size/heading-xxl" } }
+    },
+    "heading-xl": {
+      "$value": "{font-size.600}",
+      "$description": "Heading XL font size on mobile — 31px (one step down from desktop 39px)",
+      "$extensions": { "caladan": { "figma-variable": "font-size/heading-xl" } }
+    },
+    "heading-l": {
+      "$value": "{font-size.500}",
+      "$description": "Heading L font size on mobile — 25px (one step down from desktop 31px)",
+      "$extensions": { "caladan": { "figma-variable": "font-size/heading-l" } }
+    },
+    "heading-m": {
+      "$value": "{font-size.400}",
+      "$description": "Heading M font size on mobile — 20px (one step down from desktop 25px)",
+      "$extensions": { "caladan": { "figma-variable": "font-size/heading-m" } }
+    },
+    "heading-s": {
+      "$value": "{font-size.300}",
+      "$description": "Heading S font size on mobile — 16px (one step down from desktop 20px)",
+      "$extensions": { "caladan": { "figma-variable": "font-size/heading-s" } }
+    },
+    "heading-xs": {
+      "$value": "{font-size.300}",
+      "$description": "Heading XS font size on mobile — 16px (same as heading-s; minimum heading size)",
+      "$extensions": { "caladan": { "figma-variable": "font-size/heading-xs" } }
+    },
+    "body-l": {
+      "$value": "{font-size.400}",
+      "$description": "Body L font size on mobile — 20px (same as desktop)",
+      "$extensions": { "caladan": { "figma-variable": "font-size/body-l" } }
+    },
+    "body-base": {
+      "$value": "{font-size.300}",
+      "$description": "Body base font size on mobile — 16px (same as desktop)",
+      "$extensions": { "caladan": { "figma-variable": "font-size/body-base" } }
+    },
+    "body-s": {
+      "$value": "{font-size.200}",
+      "$description": "Body S font size on mobile — 14px (same as desktop)",
+      "$extensions": { "caladan": { "figma-variable": "font-size/body-s" } }
+    },
+    "body-xs": {
+      "$value": "{font-size.100}",
+      "$description": "Body XS font size on mobile — 12px (same as desktop)",
+      "$extensions": { "caladan": { "figma-variable": "font-size/body-xs" } }
+    },
+    "label-l": {
+      "$value": "{font-size.400}",
+      "$description": "Label L font size on mobile — 20px (same as desktop)",
+      "$extensions": { "caladan": { "figma-variable": "font-size/label-l" } }
+    },
+    "label-base": {
+      "$value": "{font-size.300}",
+      "$description": "Label base font size on mobile — 16px (same as desktop)",
+      "$extensions": { "caladan": { "figma-variable": "font-size/label-base" } }
+    },
+    "label-s": {
+      "$value": "{font-size.200}",
+      "$description": "Label S font size on mobile — 14px (same as desktop)",
+      "$extensions": { "caladan": { "figma-variable": "font-size/label-s" } }
+    },
+    "label-xs": {
+      "$value": "{font-size.100}",
+      "$description": "Label XS font size on mobile — 12px (same as desktop)",
+      "$extensions": { "caladan": { "figma-variable": "font-size/label-xs" } }
+    }
+  },
+  "line-height": {
+    "$type": "dimension",
+    "heading-xxl": {
+      "$value": "{line-height.700}",
+      "$description": "Heading XXL line height on mobile — 44px (ratio 1.13)",
+      "$extensions": { "caladan": { "figma-variable": "line-height/heading-xxl" } }
+    },
+    "heading-xl": {
+      "$value": "{line-height.600}",
+      "$description": "Heading XL line height on mobile — 36px (ratio 1.16)",
+      "$extensions": { "caladan": { "figma-variable": "line-height/heading-xl" } }
+    },
+    "heading-l": {
+      "$value": "{line-height.450}",
+      "$description": "Heading L line height on mobile — 30px (ratio 1.20)",
+      "$extensions": { "caladan": { "figma-variable": "line-height/heading-l" } }
+    },
+    "heading-m": {
+      "$value": "{line-height.350}",
+      "$description": "Heading M line height on mobile — 26px (ratio 1.30)",
+      "$extensions": { "caladan": { "figma-variable": "line-height/heading-m" } }
+    },
+    "heading-s": {
+      "$value": "{line-height.250}",
+      "$description": "Heading S line height on mobile — 22px (ratio 1.38)",
+      "$extensions": { "caladan": { "figma-variable": "line-height/heading-s" } }
+    },
+    "heading-xs": {
+      "$value": "{line-height.250}",
+      "$description": "Heading XS line height on mobile — 22px (ratio 1.38, same as heading-s)",
+      "$extensions": { "caladan": { "figma-variable": "line-height/heading-xs" } }
+    },
+    "body-l": {
+      "$value": "{line-height.500}",
+      "$description": "Body L line height on mobile — 32px (ratio 1.60, same as desktop)",
+      "$extensions": { "caladan": { "figma-variable": "line-height/body-l" } }
+    },
+    "body-base": {
+      "$value": "{line-height.300}",
+      "$description": "Body base line height on mobile — 24px (ratio 1.50, same as desktop)",
+      "$extensions": { "caladan": { "figma-variable": "line-height/body-base" } }
+    },
+    "body-s": {
+      "$value": "{line-height.200}",
+      "$description": "Body S line height on mobile — 20px (ratio 1.43, same as desktop)",
+      "$extensions": { "caladan": { "figma-variable": "line-height/body-s" } }
+    },
+    "body-xs": {
+      "$value": "{line-height.100}",
+      "$description": "Body XS line height on mobile — 16px (ratio 1.33, same as desktop)",
+      "$extensions": { "caladan": { "figma-variable": "line-height/body-xs" } }
+    },
+    "label-l": {
+      "$value": "{line-height.300}",
+      "$description": "Label L line height on mobile — 24px (ratio 1.20, same as desktop)",
+      "$extensions": { "caladan": { "figma-variable": "line-height/label-l" } }
+    },
+    "label-base": {
+      "$value": "{line-height.200}",
+      "$description": "Label base line height on mobile — 20px (ratio 1.25, same as desktop)",
+      "$extensions": { "caladan": { "figma-variable": "line-height/label-base" } }
+    },
+    "label-s": {
+      "$value": "{line-height.150}",
+      "$description": "Label S line height on mobile — 18px (ratio 1.29, same as desktop)",
+      "$extensions": { "caladan": { "figma-variable": "line-height/label-s" } }
+    },
+    "label-xs": {
+      "$value": "{line-height.100}",
+      "$description": "Label XS line height on mobile — 16px (ratio 1.33, same as desktop)",
+      "$extensions": { "caladan": { "figma-variable": "line-height/label-xs" } }
+    }
+  },
+  "font-weight": {
+    "$type": "number",
+    "heading-large": {
+      "$value": "{font-weight.bold}",
+      "$description": "Bold weight for large headings (XXL–M) — 700",
+      "$extensions": { "caladan": { "figma-variable": "font-weight/heading-large" } }
+    },
+    "heading-small": {
+      "$value": "{font-weight.semibold}",
+      "$description": "SemiBold weight for small headings (S–XS) — 600",
+      "$extensions": { "caladan": { "figma-variable": "font-weight/heading-small" } }
+    },
+    "body": {
+      "$value": "{font-weight.normal}",
+      "$description": "Regular weight for body text — 400",
+      "$extensions": { "caladan": { "figma-variable": "font-weight/body" } }
+    },
+    "label": {
+      "$value": "{font-weight.medium}",
+      "$description": "Medium weight for labels — 500 (differentiates from body at same font size)",
+      "$extensions": { "caladan": { "figma-variable": "font-weight/label" } }
+    }
+  },
+  "letter-spacing": {
+    "$type": "dimension",
+    "heading": {
+      "$value": "{letter-spacing.tight}",
+      "$description": "Slight tightening for headings — -0.4px",
+      "$extensions": { "caladan": { "figma-variable": "letter-spacing/heading" } }
+    },
+    "none": {
+      "$value": "{letter-spacing.normal}",
+      "$description": "Default tracking for body text — 0px",
+      "$extensions": { "caladan": { "figma-variable": "letter-spacing/none" } }
+    },
+    "label": {
+      "$value": "{letter-spacing.wide}",
+      "$description": "Open tracking for labels and small text — 0.4px",
+      "$extensions": { "caladan": { "figma-variable": "letter-spacing/label" } }
+    }
+  }
+}

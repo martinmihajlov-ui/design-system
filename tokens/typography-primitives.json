@@ -1,0 +1,246 @@
+{
+  "$metadata": {
+    "version": "1.0.0",
+    "generated_at": "2026-03-29T13:00:00.000Z",
+    "source": "Figma · Typography - Primitives · VariableCollectionId:435:2354",
+    "figma_file": "oWyNqsZJKJYF8SpZsBPb9P"
+  },
+  "font-family": {
+    "$type": "string",
+    "body": {
+      "$value": "DM Sans",
+      "$description": "Body and UI text — DM Sans",
+      "$extensions": { "caladan": { "figma-variable": "font-family/body" } }
+    },
+    "heading": {
+      "$value": "Poppins",
+      "$description": "Heading text — Poppins",
+      "$extensions": { "caladan": { "figma-variable": "font-family/heading" } }
+    }
+  },
+  "font-size": {
+    "$type": "dimension",
+    "50": {
+      "$value": "10px",
+      "$description": "10px — below scale minimum",
+      "$extensions": { "caladan": { "figma-variable": "font-size/50" } }
+    },
+    "100": {
+      "$value": "12px",
+      "$description": "12px",
+      "$extensions": { "caladan": { "figma-variable": "font-size/100" } }
+    },
+    "200": {
+      "$value": "14px",
+      "$description": "14px",
+      "$extensions": { "caladan": { "figma-variable": "font-size/200" } }
+    },
+    "300": {
+      "$value": "16px",
+      "$description": "16px — base font size",
+      "$extensions": { "caladan": { "figma-variable": "font-size/300" } }
+    },
+    "400": {
+      "$value": "20px",
+      "$description": "20px — Major Third scale (×1.25)",
+      "$extensions": { "caladan": { "figma-variable": "font-size/400" } }
+    },
+    "500": {
+      "$value": "25px",
+      "$description": "25px — Major Third scale (×1.25)",
+      "$extensions": { "caladan": { "figma-variable": "font-size/500" } }
+    },
+    "600": {
+      "$value": "31px",
+      "$description": "31px — Major Third scale (×1.25)",
+      "$extensions": { "caladan": { "figma-variable": "font-size/600" } }
+    },
+    "700": {
+      "$value": "39px",
+      "$description": "39px — Major Third scale (×1.25)",
+      "$extensions": { "caladan": { "figma-variable": "font-size/700" } }
+    },
+    "800": {
+      "$value": "49px",
+      "$description": "49px — Major Third scale (×1.25)",
+      "$extensions": { "caladan": { "figma-variable": "font-size/800" } }
+    },
+    "900": {
+      "$value": "61px",
+      "$description": "61px — Major Third scale (×1.25), unused",
+      "$extensions": { "caladan": { "figma-variable": "font-size/900" } }
+    }
+  },
+  "font-weight": {
+    "$type": "number",
+    "thin": {
+      "$value": 100,
+      "$description": "Thin — 100",
+      "$extensions": { "caladan": { "figma-variable": "font-weight/thin" } }
+    },
+    "extralight": {
+      "$value": 200,
+      "$description": "Extra Light — 200",
+      "$extensions": { "caladan": { "figma-variable": "font-weight/extralight" } }
+    },
+    "light": {
+      "$value": 300,
+      "$description": "Light — 300",
+      "$extensions": { "caladan": { "figma-variable": "font-weight/light" } }
+    },
+    "normal": {
+      "$value": 400,
+      "$description": "Regular — 400",
+      "$extensions": { "caladan": { "figma-variable": "font-weight/normal" } }
+    },
+    "medium": {
+      "$value": 500,
+      "$description": "Medium — 500",
+      "$extensions": { "caladan": { "figma-variable": "font-weight/medium" } }
+    },
+    "semibold": {
+      "$value": 600,
+      "$description": "SemiBold — 600",
+      "$extensions": { "caladan": { "figma-variable": "font-weight/semibold" } }
+    },
+    "bold": {
+      "$value": 700,
+      "$description": "Bold — 700",
+      "$extensions": { "caladan": { "figma-variable": "font-weight/bold" } }
+    },
+    "extrabold": {
+      "$value": 800,
+      "$description": "Extra Bold — 800",
+      "$extensions": { "caladan": { "figma-variable": "font-weight/extrabold" } }
+    },
+    "black": {
+      "$value": 900,
+      "$description": "Black — 900",
+      "$extensions": { "caladan": { "figma-variable": "font-weight/black" } }
+    }
+  },
+  "letter-spacing": {
+    "$type": "dimension",
+    "tighter": {
+      "$value": "-0.8px",
+      "$description": "Tight tracking for large display text — -0.8px",
+      "$extensions": { "caladan": { "figma-variable": "letter-spacing/tighter" } }
+    },
+    "tight": {
+      "$value": "-0.4px",
+      "$description": "Slight tightening for headings — -0.4px",
+      "$extensions": { "caladan": { "figma-variable": "letter-spacing/tight" } }
+    },
+    "normal": {
+      "$value": "0px",
+      "$description": "Default tracking — 0px",
+      "$extensions": { "caladan": { "figma-variable": "letter-spacing/normal" } }
+    },
+    "wide": {
+      "$value": "0.4px",
+      "$description": "Open tracking for labels and small text — 0.4px",
+      "$extensions": { "caladan": { "figma-variable": "letter-spacing/wide" } }
+    },
+    "wider": {
+      "$value": "0.8px",
+      "$description": "Wide tracking for all-caps text — 0.8px",
+      "$extensions": { "caladan": { "figma-variable": "letter-spacing/wider" } }
+    }
+  },
+  "line-height": {
+    "$type": "dimension",
+    "100": {
+      "$value": "16px",
+      "$description": "16px",
+      "$extensions": { "caladan": { "figma-variable": "line-height/100" } }
+    },
+    "150": {
+      "$value": "18px",
+      "$description": "18px",
+      "$extensions": { "caladan": { "figma-variable": "line-height/150" } }
+    },
+    "200": {
+      "$value": "20px",
+      "$description": "20px",
+      "$extensions": { "caladan": { "figma-variable": "line-height/200" } }
+    },
+    "250": {
+      "$value": "22px",
+      "$description": "22px",
+      "$extensions": { "caladan": { "figma-variable": "line-height/250" } }
+    },
+    "300": {
+      "$value": "24px",
+      "$description": "24px",
+      "$extensions": { "caladan": { "figma-variable": "line-height/300" } }
+    },
+    "350": {
+      "$value": "26px",
+      "$description": "26px",
+      "$extensions": { "caladan": { "figma-variable": "line-height/350" } }
+    },
+    "400": {
+      "$value": "28px",
+      "$description": "28px — unused",
+      "$extensions": { "caladan": { "figma-variable": "line-height/400" } }
+    },
+    "450": {
+      "$value": "30px",
+      "$description": "30px",
+      "$extensions": { "caladan": { "figma-variable": "line-height/450" } }
+    },
+    "500": {
+      "$value": "32px",
+      "$description": "32px",
+      "$extensions": { "caladan": { "figma-variable": "line-height/500" } }
+    },
+    "600": {
+      "$value": "36px",
+      "$description": "36px",
+      "$extensions": { "caladan": { "figma-variable": "line-height/600" } }
+    },
+    "700": {
+      "$value": "44px",
+      "$description": "44px",
+      "$extensions": { "caladan": { "figma-variable": "line-height/700" } }
+    },
+    "800": {
+      "$value": "56px",
+      "$description": "56px",
+      "$extensions": { "caladan": { "figma-variable": "line-height/800" } }
+    },
+    "900": {
+      "$value": "72px",
+      "$description": "72px — unused",
+      "$extensions": { "caladan": { "figma-variable": "line-height/900" } }
+    }
+  },
+  "paragraph-spacing": {
+    "$type": "dimension",
+    "x-small": {
+      "$value": "8px",
+      "$description": "Tight paragraph spacing — 8px",
+      "$extensions": { "caladan": { "figma-variable": "paragraph-spacing/x-small" } }
+    },
+    "small": {
+      "$value": "12px",
+      "$description": "Compact paragraph spacing — 12px",
+      "$extensions": { "caladan": { "figma-variable": "paragraph-spacing/small" } }
+    },
+    "base": {
+      "$value": "16px",
+      "$description": "Standard paragraph spacing — 16px",
+      "$extensions": { "caladan": { "figma-variable": "paragraph-spacing/base" } }
+    },
+    "large": {
+      "$value": "20px",
+      "$description": "Relaxed paragraph spacing — 20px",
+      "$extensions": { "caladan": { "figma-variable": "paragraph-spacing/large" } }
+    },
+    "x-large": {
+      "$value": "24px",
+      "$description": "Open paragraph spacing — 24px",
+      "$extensions": { "caladan": { "figma-variable": "paragraph-spacing/x-large" } }
+    }
+  }
+}

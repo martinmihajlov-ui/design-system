@@ -1,6 +1,8 @@
 # Caladan Design System
 
-A design token pipeline built in Figma with structured export to web, React, and React Native. Covers color (OKLCH), spacing (4px grid), and typography (Major Third scale), each with a primitive and semantic alias layer that produces production-ready CSS and JavaScript output.
+This repo was built over a weekend as part of a job application to XBOW. The idea had been brewing for a while: a token pipeline where Figma is a genuine source of truth rather than a handoff tool, with automated export, platform-agnostic output, and a practical workaround for the Figma Enterprise API limitation that most product designers quietly hit and work around manually. The application was the right reason to finally build it.
+
+This project is a design token pipeline built in Figma with structured export to web, React, and React Native. Covers color (OKLCH), spacing (4px grid), and typography (Major Third scale), each with a primitive and semantic alias layer that produces production-ready CSS and JavaScript output.
 
 ---
 

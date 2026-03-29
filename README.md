@@ -1,4 +1,4 @@
-# Caladan Design System
+# Caladan Token System
 
 This repo was built over a weekend as part of a job application to XBOW. The idea had been brewing for a while: a token pipeline where Figma is a genuine source of truth rather than a handoff tool, with automated export, platform-agnostic output, and a practical workaround for the Figma Enterprise API limitation that most product designers quietly hit and work around manually.
 

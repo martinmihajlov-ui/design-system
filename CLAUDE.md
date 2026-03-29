@@ -1,4 +1,4 @@
-# Caladan Design System
+# Caladan Token System
 
 ## Project overview
 

@@ -1,0 +1,786 @@
+{
+  "$metadata": {
+    "version": "1.0.0",
+    "generated_at": "2026-03-28T20:42:01.063Z",
+    "source": "Figma · Colors - Alias · VariableCollectionId:364:1234 · Dark",
+    "figma_file": "oWyNqsZJKJYF8SpZsBPb9P"
+  },
+  "$type": "color",
+  "surface": {
+    "page": {
+      "$value": "{neutral.950}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/page"
+        }
+      },
+      "$description": "Page background — base layer behind all content"
+    },
+    "subtle": {
+      "$value": "{neutral.800}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/subtle"
+        }
+      },
+      "$description": "Subtle surface — lightly differentiated background area"
+    },
+    "elevated": {
+      "$value": "{neutral.900}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/elevated"
+        }
+      },
+      "$description": "Elevated surface — cards, panels and modals raised above the page"
+    },
+    "primary": {
+      "$value": "{indigo.500}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/primary"
+        }
+      },
+      "$description": "Primary action surface — filled primary buttons and CTAs"
+    },
+    "primary-hover": {
+      "$value": "{indigo.400}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/primary-hover"
+        }
+      },
+      "$description": "Primary action surface on hover"
+    },
+    "primary-pressed": {
+      "$value": "{indigo.300}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/primary-pressed"
+        }
+      },
+      "$description": "Primary action surface on press"
+    },
+    "primary-subtle": {
+      "$value": "{indigo.900}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/primary-subtle"
+        }
+      },
+      "$description": "Subtle primary surface — selected states and primary-tinted backgrounds"
+    },
+    "primary-disabled": {
+      "$value": "{neutral.700}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/primary-disabled"
+        }
+      },
+      "$description": "Disabled primary element background"
+    },
+    "secondary": {
+      "$value": "{amber.400}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/secondary"
+        }
+      },
+      "$description": "Secondary action surface — filled secondary (amber) buttons"
+    },
+    "secondary-hover": {
+      "$value": "{amber.300}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/secondary-hover"
+        }
+      },
+      "$description": "Secondary action surface on hover"
+    },
+    "secondary-pressed": {
+      "$value": "{amber.200}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/secondary-pressed"
+        }
+      },
+      "$description": "Secondary action surface on press"
+    },
+    "secondary-subtle": {
+      "$value": "{amber.900}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/secondary-subtle"
+        }
+      },
+      "$description": "Subtle secondary surface — secondary-tinted backgrounds"
+    },
+    "danger": {
+      "$value": "{danger.500}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/danger"
+        }
+      },
+      "$description": "Danger action surface — filled destructive buttons"
+    },
+    "danger-subtle": {
+      "$value": "{danger.950}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/danger-subtle"
+        }
+      },
+      "$description": "Subtle danger surface — error banners and alert backgrounds"
+    },
+    "warning": {
+      "$value": "{warning.500}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/warning"
+        }
+      },
+      "$description": "Warning action surface — filled caution buttons"
+    },
+    "warning-subtle": {
+      "$value": "{warning.950}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/warning-subtle"
+        }
+      },
+      "$description": "Subtle warning surface — caution banners and alert backgrounds"
+    },
+    "success": {
+      "$value": "{success.500}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/success"
+        }
+      },
+      "$description": "Success action surface — filled confirmation buttons"
+    },
+    "success-subtle": {
+      "$value": "{success.950}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/success-subtle"
+        }
+      },
+      "$description": "Subtle success surface — confirmation banners and alert backgrounds"
+    },
+    "info": {
+      "$value": "{info.500}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/info"
+        }
+      },
+      "$description": "Info action surface — filled informational buttons"
+    },
+    "info-subtle": {
+      "$value": "{info.950}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/info-subtle"
+        }
+      },
+      "$description": "Subtle info surface — informational banners and alert backgrounds"
+    },
+    "overlay": {
+      "$value": "{neutral.dark-alpha80}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/overlay"
+        }
+      },
+      "$description": "Dark overlay — modal and drawer backdrops"
+    },
+    "neutral": {
+      "$value": "{neutral.800}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/neutral"
+        }
+      },
+      "$description": "Neutral contained surface — sidebars, input backgrounds, grouped areas"
+    },
+    "neutral-hover": {
+      "$value": "{neutral.700}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/neutral-hover"
+        }
+      },
+      "$description": "Neutral surface on hover"
+    },
+    "neutral-pressed": {
+      "$value": "{neutral.600}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/neutral-pressed"
+        }
+      },
+      "$description": "Neutral surface on press"
+    },
+    "disabled": {
+      "$value": "{neutral.800}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "surface/disabled"
+        }
+      },
+      "$description": "Disabled element background"
+    }
+  },
+  "text": {
+    "default": {
+      "$value": "{neutral.50}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "text/default"
+        }
+      },
+      "$description": "Default body text — primary reading content"
+    },
+    "subtle": {
+      "$value": "{neutral.400}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "text/subtle"
+        }
+      },
+      "$description": "Subtle text — secondary labels, captions and supporting copy"
+    },
+    "placeholder": {
+      "$value": "{neutral.500}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "text/placeholder"
+        }
+      },
+      "$description": "Placeholder text — input field placeholder copy"
+    },
+    "disabled": {
+      "$value": "{neutral.600}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "text/disabled"
+        }
+      },
+      "$description": "Disabled text — inactive labels and copy"
+    },
+    "inverted": {
+      "$value": "{neutral.900}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "text/inverted"
+        }
+      },
+      "$description": "Inverted text — copy on dark or filled surfaces"
+    },
+    "primary": {
+      "$value": "{indigo.400}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "text/primary"
+        }
+      },
+      "$description": "Primary brand text — headings and labels in brand (indigo) color"
+    },
+    "primary-hover": {
+      "$value": "{indigo.200}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "text/primary-hover"
+        }
+      },
+      "$description": "Primary brand text on hover"
+    },
+    "secondary": {
+      "$value": "{amber.400}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "text/secondary"
+        }
+      },
+      "$description": "Secondary brand text — labels in secondary (amber) brand color"
+    },
+    "on-primary": {
+      "$value": "{neutral.0}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "text/on-primary"
+        }
+      },
+      "$description": "Text on primary surface — copy inside filled primary buttons"
+    },
+    "on-secondary": {
+      "$value": "{neutral.900}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "text/on-secondary"
+        }
+      },
+      "$description": "Text on secondary surface — copy inside filled secondary (amber) buttons"
+    },
+    "danger": {
+      "$value": "{danger.300}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "text/danger"
+        }
+      },
+      "$description": "Danger text — error messages and destructive action labels"
+    },
+    "warning": {
+      "$value": "{warning.300}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "text/warning"
+        }
+      },
+      "$description": "Warning text — caution messages and warning labels"
+    },
+    "success": {
+      "$value": "{success.300}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "text/success"
+        }
+      },
+      "$description": "Success text — confirmation messages and success labels"
+    },
+    "info": {
+      "$value": "{info.300}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "text/info"
+        }
+      },
+      "$description": "Info text — informational messages and info labels"
+    },
+    "link": {
+      "$value": "{indigo.400}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "text/link"
+        }
+      },
+      "$description": "Hyperlink text color"
+    },
+    "on-primary-subtle": {
+      "$value": "{indigo.300}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "text/on-primary-subtle"
+        }
+      },
+      "$description": "Text on subtle primary surface"
+    },
+    "on-secondary-subtle": {
+      "$value": "{amber.200}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "text/on-secondary-subtle"
+        }
+      },
+      "$description": "Text on subtle secondary surface"
+    },
+    "on-danger": {
+      "$value": "{neutral.0}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "text/on-danger"
+        }
+      },
+      "$description": "Text on danger surface — copy inside filled danger buttons"
+    },
+    "on-warning": {
+      "$value": "{neutral.900}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "text/on-warning"
+        }
+      },
+      "$description": "Text on warning surface — copy inside filled warning buttons"
+    },
+    "on-success": {
+      "$value": "{neutral.0}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "text/on-success"
+        }
+      },
+      "$description": "Text on success surface — copy inside filled success buttons"
+    },
+    "on-info": {
+      "$value": "{neutral.0}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "text/on-info"
+        }
+      },
+      "$description": "Text on info surface — copy inside filled info buttons"
+    }
+  },
+  "border": {
+    "default": {
+      "$value": "{neutral.700}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "border/default"
+        }
+      },
+      "$description": "Default border — standard dividers and input outlines"
+    },
+    "subtle": {
+      "$value": "{neutral.800}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "border/subtle"
+        }
+      },
+      "$description": "Subtle border — soft dividers and section separators"
+    },
+    "strong": {
+      "$value": "{neutral.500}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "border/strong"
+        }
+      },
+      "$description": "Strong border — emphasized dividers and active input outlines"
+    },
+    "primary": {
+      "$value": "{indigo.500}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "border/primary"
+        }
+      },
+      "$description": "Primary brand border — focused primary inputs and primary outlines"
+    },
+    "primary-subtle": {
+      "$value": "{indigo.700}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "border/primary-subtle"
+        }
+      },
+      "$description": "Subtle primary border — primary-tinted outlines"
+    },
+    "secondary": {
+      "$value": "{amber.400}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "border/secondary"
+        }
+      },
+      "$description": "Secondary brand border — secondary (amber) outlines"
+    },
+    "danger": {
+      "$value": "{danger.500}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "border/danger"
+        }
+      },
+      "$description": "Danger border — error state input outlines and danger alerts"
+    },
+    "warning": {
+      "$value": "{warning.500}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "border/warning"
+        }
+      },
+      "$description": "Warning border — caution state input outlines and warning alerts"
+    },
+    "success": {
+      "$value": "{success.500}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "border/success"
+        }
+      },
+      "$description": "Success border — valid state input outlines and success alerts"
+    },
+    "info": {
+      "$value": "{info.500}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "border/info"
+        }
+      },
+      "$description": "Info border — info state input outlines and info alerts"
+    },
+    "secondary-subtle": {
+      "$value": "{amber.800}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "border/secondary-subtle"
+        }
+      },
+      "$description": "Subtle secondary border — secondary-tinted outlines"
+    },
+    "disabled": {
+      "$value": "{neutral.700}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "border/disabled"
+        }
+      },
+      "$description": "Disabled border — inactive input and element outlines"
+    }
+  },
+  "icon": {
+    "default": {
+      "$value": "{neutral.300}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "icon/default"
+        }
+      },
+      "$description": "Default icon color"
+    },
+    "subtle": {
+      "$value": "{neutral.600}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "icon/subtle"
+        }
+      },
+      "$description": "Subtle icon — secondary and decorative icons"
+    },
+    "disabled": {
+      "$value": "{neutral.600}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "icon/disabled"
+        }
+      },
+      "$description": "Disabled icon"
+    },
+    "inverted": {
+      "$value": "{neutral.900}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "icon/inverted"
+        }
+      },
+      "$description": "Inverted icon — icons on dark or filled surfaces"
+    },
+    "primary": {
+      "$value": "{indigo.400}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "icon/primary"
+        }
+      },
+      "$description": "Primary brand icon"
+    },
+    "secondary": {
+      "$value": "{amber.400}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "icon/secondary"
+        }
+      },
+      "$description": "Secondary brand (amber) icon"
+    },
+    "danger": {
+      "$value": "{danger.300}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "icon/danger"
+        }
+      },
+      "$description": "Danger icon — error and destructive action icons"
+    },
+    "warning": {
+      "$value": "{warning.300}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "icon/warning"
+        }
+      },
+      "$description": "Warning icon — caution icons"
+    },
+    "success": {
+      "$value": "{success.300}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "icon/success"
+        }
+      },
+      "$description": "Success icon — confirmation and success icons"
+    },
+    "info": {
+      "$value": "{info.300}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "icon/info"
+        }
+      },
+      "$description": "Info icon — informational icons"
+    },
+    "on-primary": {
+      "$value": "{neutral.0}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "icon/on-primary"
+        }
+      },
+      "$description": "Icon on primary surface — icons inside filled primary buttons"
+    },
+    "on-secondary": {
+      "$value": "{neutral.900}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "icon/on-secondary"
+        }
+      },
+      "$description": "Icon on secondary surface — icons inside filled secondary buttons"
+    },
+    "on-danger": {
+      "$value": "{neutral.0}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "icon/on-danger"
+        }
+      },
+      "$description": "Icon on danger surface — icons inside filled danger buttons"
+    },
+    "on-warning": {
+      "$value": "{neutral.900}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "icon/on-warning"
+        }
+      },
+      "$description": "Icon on warning surface — icons inside filled warning buttons"
+    },
+    "on-success": {
+      "$value": "{neutral.0}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "icon/on-success"
+        }
+      },
+      "$description": "Icon on success surface — icons inside filled success buttons"
+    },
+    "on-info": {
+      "$value": "{neutral.0}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "icon/on-info"
+        }
+      },
+      "$description": "Icon on info surface — icons inside filled info buttons"
+    }
+  },
+  "interactive": {
+    "focus-ring": {
+      "$value": "{indigo.400}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "interactive/focus-ring"
+        }
+      },
+      "$description": "Focus ring — keyboard focus indicator on primary interactive elements"
+    },
+    "focus-ring-danger": {
+      "$value": "{danger.300}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "interactive/focus-ring-danger"
+        }
+      },
+      "$description": "Focus ring for danger-state inputs and buttons"
+    },
+    "selection": {
+      "$value": "{indigo.800}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "interactive/selection"
+        }
+      },
+      "$description": "Selected item background — single and multi-select states"
+    },
+    "selection-strong": {
+      "$value": "{indigo.700}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "interactive/selection-strong"
+        }
+      },
+      "$description": "Strong selection background — emphasized selected states"
+    },
+    "hover": {
+      "$value": "{indigo.900}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "interactive/hover"
+        }
+      },
+      "$description": "Hover state background — subtle tint on interactive rows and list items"
+    },
+    "focus-ring-success": {
+      "$value": "{success.300}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "interactive/focus-ring-success"
+        }
+      },
+      "$description": "Focus ring for success-state inputs and buttons"
+    },
+    "focus-ring-warning": {
+      "$value": "{warning.300}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "interactive/focus-ring-warning"
+        }
+      },
+      "$description": "Focus ring for warning-state inputs and buttons"
+    },
+    "focus-ring-info": {
+      "$value": "{info.300}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "interactive/focus-ring-info"
+        }
+      },
+      "$description": "Focus ring for info-state inputs and buttons"
+    },
+    "active": {
+      "$value": "{indigo.800}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "interactive/active"
+        }
+      },
+      "$description": "Active item background — currently active navigation item"
+    }
+  },
+  "overlay": {
+    "dark": {
+      "$value": "{neutral.dark-alpha80}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "overlay/dark"
+        }
+      },
+      "$description": "Dark overlay — modal and drawer backdrop at 80% opacity"
+    },
+    "light": {
+      "$value": "{neutral.white-alpha80}",
+      "$extensions": {
+        "caladan": {
+          "figma-variable": "overlay/light"
+        }
+      },
+      "$description": "Light overlay — frosted glass effect and light backdrop at 80% opacity"
+    }
+  }
+}

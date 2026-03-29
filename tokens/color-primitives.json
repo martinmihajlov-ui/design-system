@@ -1,260 +1,1317 @@
 {
-  "meta": {
-    "color_name": "brand",
-    "input_hex": "#606FF4",
-    "input_oklch": {
-      "L": 0.6017,
-      "C": 0.1976,
-      "H": 274
-    },
-    "anchor_step": 500,
-    "generated_at": "2026-03-28T17:14:07.849Z",
-    "algorithm": {
-      "snap": "linear_reference_scale",
-      "l_distribution": "zone_based",
-      "zone_boundary": "200→300",
-      "gaps": {
-        "light_tints_50_200": 0.05,
-        "working_200_700": 0.08,
-        "dark_700_950": 0.1
+  "$metadata": {
+    "version": "1.0.0",
+    "generated_at": "2026-03-28T20:42:01.063Z",
+    "source": "Figma · Colors - Primitives · VariableCollectionId:35:367",
+    "figma_file": "oWyNqsZJKJYF8SpZsBPb9P"
+  },
+  "$type": "color",
+  "indigo": {
+    "50": {
+      "$value": "oklch(0.975 0.012 281.1)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#F5F6FF",
+          "rgb": {
+            "r": 245,
+            "g": 246,
+            "b": 255
+          },
+          "figma-variable": "indigo/50"
+        }
       },
-      "c_model": "gaussian",
-      "gaussian_sigma": 2.33,
-      "gaussian_target": "C at step 50 and 950 ≈ 10% of peak",
-      "h_strategy": "stable, drift ≤ ±5° only if gamut clamping exceeds 20% C reduction"
+      "$description": "Indigo 50 — Lightest tint — subtle backgrounds and hover overlays"
+    },
+    "100": {
+      "$value": "oklch(0.9255 0.0362 279.4)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#E1E4FF",
+          "rgb": {
+            "r": 225,
+            "g": 228,
+            "b": 255
+          },
+          "figma-variable": "indigo/100"
+        }
+      },
+      "$description": "Indigo 100 — Very light tint — subtle surfaces and selected states"
+    },
+    "200": {
+      "$value": "oklch(0.8761 0.0611 277.8)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#CCD3FF",
+          "rgb": {
+            "r": 204,
+            "g": 211,
+            "b": 255
+          },
+          "figma-variable": "indigo/200"
+        }
+      },
+      "$description": "Indigo 200 — Light tint — hover surfaces and subtle borders"
+    },
+    "300": {
+      "$value": "oklch(0.7538 0.1233 277.9)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#9DA7FC",
+          "rgb": {
+            "r": 157,
+            "g": 167,
+            "b": 252
+          },
+          "figma-variable": "indigo/300"
+        }
+      },
+      "$description": "Indigo 300 — Light-medium — borders, decorative elements, semantic text in dark mode"
+    },
+    "400": {
+      "$value": "oklch(0.6776 0.1621 278)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#828AF9",
+          "rgb": {
+            "r": 130,
+            "g": 138,
+            "b": 249
+          },
+          "figma-variable": "indigo/400"
+        }
+      },
+      "$description": "Indigo 400 — Medium-light — placeholder text, subtle icons"
+    },
+    "500": {
+      "$value": "oklch(0.6013 0.1978 274.1)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#606FF4",
+          "rgb": {
+            "r": 96,
+            "g": 111,
+            "b": 244
+          },
+          "figma-variable": "indigo/500"
+        }
+      },
+      "$description": "Indigo 500 — Base — primary surface color for semantic elements"
+    },
+    "600": {
+      "$value": "oklch(0.5323 0.1923 273.8)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#4E5AD9",
+          "rgb": {
+            "r": 78,
+            "g": 90,
+            "b": 217
+          },
+          "figma-variable": "indigo/600"
+        }
+      },
+      "$description": "Indigo 600 — Medium-dark — text links and interactive labels"
+    },
+    "700": {
+      "$value": "oklch(0.4522 0.1682 273.5)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#3C46B1",
+          "rgb": {
+            "r": 60,
+            "g": 70,
+            "b": 177
+          },
+          "figma-variable": "indigo/700"
+        }
+      },
+      "$description": "Indigo 700 — Dark — text, icons and borders on light backgrounds"
+    },
+    "800": {
+      "$value": "oklch(0.362 0.1315 274)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#2B3281",
+          "rgb": {
+            "r": 43,
+            "g": 50,
+            "b": 129
+          },
+          "figma-variable": "indigo/800"
+        }
+      },
+      "$description": "Indigo 800 — Darker — hover states for filled elements"
+    },
+    "900": {
+      "$value": "oklch(0.2631 0.0872 275.1)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#1A1E4E",
+          "rgb": {
+            "r": 26,
+            "g": 30,
+            "b": 78
+          },
+          "figma-variable": "indigo/900"
+        }
+      },
+      "$description": "Indigo 900 — Very dark — pressed states and deep backgrounds"
+    },
+    "950": {
+      "$value": "oklch(0.1891 0.0526 276.5)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#0E102B",
+          "rgb": {
+            "r": 14,
+            "g": 16,
+            "b": 43
+          },
+          "figma-variable": "indigo/950"
+        }
+      },
+      "$description": "Indigo 950 — Near-black — deepest tint, subtle surfaces in dark mode"
     }
   },
-  "scale": [
-    {
-      "figma_variable": "brand/50",
-      "oklch": {
-        "L": 0.9417,
-        "C": 0.0198,
-        "H": 274
+  "amber": {
+    "50": {
+      "$value": "oklch(0.9869 0.0214 95.3)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#FFFBEB",
+          "rgb": {
+            "r": 255,
+            "g": 251,
+            "b": 235
+          },
+          "figma-variable": "amber/50"
+        }
       },
-      "hex": "#E7EBF9",
-      "rgb": {
-        "r": 231,
-        "g": 235,
-        "b": 249
-      },
-      "meta": {
-        "step": 50,
-        "anchor": false,
-        "gamut_clamped": false,
-        "c_reduction_pct": 0,
-        "h_drift_deg": 0
-      }
+      "$description": "Amber 50 — Lightest tint — subtle backgrounds and hover overlays"
     },
-    {
-      "figma_variable": "brand/100",
-      "oklch": {
-        "L": 0.8917,
-        "C": 0.0453,
-        "H": 274
+    "100": {
+      "$value": "oklch(0.9619 0.058 95.6)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#FEF3C7",
+          "rgb": {
+            "r": 254,
+            "g": 243,
+            "b": 199
+          },
+          "figma-variable": "amber/100"
+        }
       },
-      "hex": "#D2DAFA",
-      "rgb": {
-        "r": 210,
-        "g": 218,
-        "b": 250
-      },
-      "meta": {
-        "step": 100,
-        "anchor": false,
-        "gamut_clamped": false,
-        "c_reduction_pct": 0,
-        "h_drift_deg": 0
-      }
+      "$description": "Amber 100 — Very light tint — subtle surfaces and selected states"
     },
-    {
-      "figma_variable": "brand/200",
-      "oklch": {
-        "L": 0.8417,
-        "C": 0.0782,
-        "H": 274
+    "200": {
+      "$value": "oklch(0.9243 0.1151 95.7)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#FDE68A",
+          "rgb": {
+            "r": 253,
+            "g": 230,
+            "b": 138
+          },
+          "figma-variable": "amber/200"
+        }
       },
-      "hex": "#BBC8FF",
-      "rgb": {
-        "r": 187,
-        "g": 200,
-        "b": 255
-      },
-      "meta": {
-        "step": 200,
-        "anchor": false,
-        "gamut_clamped": true,
-        "c_reduction_pct": 9.3,
-        "h_drift_deg": 0
-      }
+      "$description": "Amber 200 — Light tint — hover surfaces and subtle borders"
     },
-    {
-      "figma_variable": "brand/300",
-      "oklch": {
-        "L": 0.7617,
-        "C": 0.1217,
-        "H": 274
+    "300": {
+      "$value": "oklch(0.879 0.1534 91.6)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#FCD34D",
+          "rgb": {
+            "r": 252,
+            "g": 211,
+            "b": 77
+          },
+          "figma-variable": "amber/300"
+        }
       },
-      "hex": "#9AABFF",
-      "rgb": {
-        "r": 154,
-        "g": 171,
-        "b": 255
-      },
-      "meta": {
-        "step": 300,
-        "anchor": false,
-        "gamut_clamped": true,
-        "c_reduction_pct": 11,
-        "h_drift_deg": 0
-      }
+      "$description": "Amber 300 — Light-medium — borders, decorative elements, semantic text in dark mode"
     },
-    {
-      "figma_variable": "brand/400",
-      "oklch": {
-        "L": 0.6817,
-        "C": 0.1682,
-        "H": 274
+    "400": {
+      "$value": "oklch(0.8369 0.1644 84.4)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#FBBF24",
+          "rgb": {
+            "r": 251,
+            "g": 191,
+            "b": 36
+          },
+          "figma-variable": "amber/400"
+        }
       },
-      "hex": "#7A8DFF",
-      "rgb": {
-        "r": 122,
-        "g": 141,
-        "b": 255
-      },
-      "meta": {
-        "step": 400,
-        "anchor": false,
-        "gamut_clamped": true,
-        "c_reduction_pct": 6.7,
-        "h_drift_deg": 0
-      }
+      "$description": "Amber 400 — Medium-light — placeholder text, subtle icons"
     },
-    {
-      "figma_variable": "brand/500",
-      "oklch": {
-        "L": 0.6017,
-        "C": 0.1976,
-        "H": 274
+    "500": {
+      "$value": "oklch(0.7686 0.1647 70.1)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#F59E0B",
+          "rgb": {
+            "r": 245,
+            "g": 158,
+            "b": 11
+          },
+          "figma-variable": "amber/500"
+        }
       },
-      "hex": "#606FF4",
-      "rgb": {
-        "r": 96,
-        "g": 111,
-        "b": 244
-      },
-      "meta": {
-        "step": 500,
-        "anchor": true,
-        "gamut_clamped": false,
-        "c_reduction_pct": 0,
-        "h_drift_deg": 0
-      }
+      "$description": "Amber 500 — Base — primary surface color for semantic elements"
     },
-    {
-      "figma_variable": "brand/600",
-      "oklch": {
-        "L": 0.5217,
-        "C": 0.1802,
-        "H": 274
+    "600": {
+      "$value": "oklch(0.6658 0.1574 58.3)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#D97706",
+          "rgb": {
+            "r": 217,
+            "g": 119,
+            "b": 6
+          },
+          "figma-variable": "amber/600"
+        }
       },
-      "hex": "#4D59CF",
-      "rgb": {
-        "r": 77,
-        "g": 89,
-        "b": 207
-      },
-      "meta": {
-        "step": 600,
-        "anchor": false,
-        "gamut_clamped": false,
-        "c_reduction_pct": 0,
-        "h_drift_deg": 0
-      }
+      "$description": "Amber 600 — Medium-dark — text links and interactive labels"
     },
-    {
-      "figma_variable": "brand/700",
-      "oklch": {
-        "L": 0.4417,
-        "C": 0.1367,
-        "H": 274
+    "700": {
+      "$value": "oklch(0.5553 0.1455 49)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#B45309",
+          "rgb": {
+            "r": 180,
+            "g": 83,
+            "b": 9
+          },
+          "figma-variable": "amber/700"
+        }
       },
-      "hex": "#3E489D",
-      "rgb": {
-        "r": 62,
-        "g": 72,
-        "b": 157
-      },
-      "meta": {
-        "step": 700,
-        "anchor": false,
-        "gamut_clamped": false,
-        "c_reduction_pct": 0,
-        "h_drift_deg": 0
-      }
+      "$description": "Amber 700 — Dark — text, icons and borders on light backgrounds"
     },
-    {
-      "figma_variable": "brand/800",
-      "oklch": {
-        "L": 0.3417,
-        "C": 0.0862,
-        "H": 274
+    "800": {
+      "$value": "oklch(0.4732 0.1247 46.2)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#92400E",
+          "rgb": {
+            "r": 146,
+            "g": 64,
+            "b": 14
+          },
+          "figma-variable": "amber/800"
+        }
       },
-      "hex": "#2B3364",
-      "rgb": {
-        "r": 43,
-        "g": 51,
-        "b": 100
-      },
-      "meta": {
-        "step": 800,
-        "anchor": false,
-        "gamut_clamped": false,
-        "c_reduction_pct": 0,
-        "h_drift_deg": 0
-      }
+      "$description": "Amber 800 — Darker — hover states for filled elements"
     },
-    {
-      "figma_variable": "brand/900",
-      "oklch": {
-        "L": 0.2417,
-        "C": 0.0453,
-        "H": 274
+    "900": {
+      "$value": "oklch(0.3886 0.104 44.8)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#702E09",
+          "rgb": {
+            "r": 112,
+            "g": 46,
+            "b": 9
+          },
+          "figma-variable": "amber/900"
+        }
       },
-      "hex": "#191E35",
-      "rgb": {
-        "r": 25,
-        "g": 30,
-        "b": 53
-      },
-      "meta": {
-        "step": 900,
-        "anchor": false,
-        "gamut_clamped": false,
-        "c_reduction_pct": 0,
-        "h_drift_deg": 0
-      }
+      "$description": "Amber 900 — Very dark — pressed states and deep backgrounds"
     },
-    {
-      "figma_variable": "brand/950",
-      "oklch": {
-        "L": 0.1417,
-        "C": 0.0198,
-        "H": 274
+    "950": {
+      "$value": "oklch(0.3238 0.0883 43.9)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#572105",
+          "rgb": {
+            "r": 87,
+            "g": 33,
+            "b": 5
+          },
+          "figma-variable": "amber/950"
+        }
       },
-      "hex": "#070912",
-      "rgb": {
-        "r": 7,
-        "g": 9,
-        "b": 18
-      },
-      "meta": {
-        "step": 950,
-        "anchor": false,
-        "gamut_clamped": false,
-        "c_reduction_pct": 0,
-        "h_drift_deg": 0
-      }
+      "$description": "Amber 950 — Near-black — deepest tint, subtle surfaces in dark mode"
     }
-  ]
+  },
+  "purple": {
+    "50": {
+      "$value": "oklch(0.9691 0.0161 293.8)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#F5F3FF",
+          "rgb": {
+            "r": 245,
+            "g": 243,
+            "b": 255
+          },
+          "figma-variable": "purple/50"
+        }
+      },
+      "$description": "Purple 50 — Lightest tint — subtle backgrounds and hover overlays"
+    },
+    "100": {
+      "$value": "oklch(0.9198 0.0408 293.2)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#E5E0FE",
+          "rgb": {
+            "r": 229,
+            "g": 224,
+            "b": 254
+          },
+          "figma-variable": "purple/100"
+        }
+      },
+      "$description": "Purple 100 — Very light tint — subtle surfaces and selected states"
+    },
+    "200": {
+      "$value": "oklch(0.8696 0.0692 294.1)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#D6CCFE",
+          "rgb": {
+            "r": 214,
+            "g": 204,
+            "b": 254
+          },
+          "figma-variable": "purple/200"
+        }
+      },
+      "$description": "Purple 200 — Light tint — hover surfaces and subtle borders"
+    },
+    "300": {
+      "$value": "oklch(0.789 0.1132 294)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#BEACFC",
+          "rgb": {
+            "r": 190,
+            "g": 172,
+            "b": 252
+          },
+          "figma-variable": "purple/300"
+        }
+      },
+      "$description": "Purple 300 — Light-medium — borders, decorative elements, semantic text in dark mode"
+    },
+    "400": {
+      "$value": "oklch(0.709 0.1592 293.5)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#A78BFA",
+          "rgb": {
+            "r": 167,
+            "g": 139,
+            "b": 250
+          },
+          "figma-variable": "purple/400"
+        }
+      },
+      "$description": "Purple 400 — Medium-light — placeholder text, subtle icons"
+    },
+    "500": {
+      "$value": "oklch(0.6294 0.2048 293.9)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#9367F6",
+          "rgb": {
+            "r": 147,
+            "g": 103,
+            "b": 246
+          },
+          "figma-variable": "purple/500"
+        }
+      },
+      "$description": "Purple 500 — Base — primary surface color for semantic elements"
+    },
+    "600": {
+      "$value": "oklch(0.5487 0.2428 293.7)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#7F3EED",
+          "rgb": {
+            "r": 127,
+            "g": 62,
+            "b": 237
+          },
+          "figma-variable": "purple/600"
+        }
+      },
+      "$description": "Purple 600 — Medium-dark — text links and interactive labels"
+    },
+    "700": {
+      "$value": "oklch(0.4688 0.2301 293.6)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#6824CB",
+          "rgb": {
+            "r": 104,
+            "g": 36,
+            "b": 203
+          },
+          "figma-variable": "purple/700"
+        }
+      },
+      "$description": "Purple 700 — Dark — text, icons and borders on light backgrounds"
+    },
+    "800": {
+      "$value": "oklch(0.3694 0.1725 293.8)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#491C8F",
+          "rgb": {
+            "r": 73,
+            "g": 28,
+            "b": 143
+          },
+          "figma-variable": "purple/800"
+        }
+      },
+      "$description": "Purple 800 — Darker — hover states for filled elements"
+    },
+    "900": {
+      "$value": "oklch(0.268 0.1103 293.8)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#2B1455",
+          "rgb": {
+            "r": 43,
+            "g": 20,
+            "b": 85
+          },
+          "figma-variable": "purple/900"
+        }
+      },
+      "$description": "Purple 900 — Very dark — pressed states and deep backgrounds"
+    },
+    "950": {
+      "$value": "oklch(0.1946 0.0634 293.6)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#170D2E",
+          "rgb": {
+            "r": 23,
+            "g": 13,
+            "b": 46
+          },
+          "figma-variable": "purple/950"
+        }
+      },
+      "$description": "Purple 950 — Near-black — deepest tint, subtle surfaces in dark mode"
+    }
+  },
+  "teal": {
+    "50": {
+      "$value": "oklch(0.9836 0.0142 180.7)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#F0FDFA",
+          "rgb": {
+            "r": 240,
+            "g": 253,
+            "b": 250
+          },
+          "figma-variable": "teal/50"
+        }
+      },
+      "$description": "Teal 50 — Lightest tint — subtle backgrounds and hover overlays"
+    },
+    "100": {
+      "$value": "oklch(0.9339 0.0691 181.4)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#B6F9EC",
+          "rgb": {
+            "r": 182,
+            "g": 249,
+            "b": 236
+          },
+          "figma-variable": "teal/100"
+        }
+      },
+      "$description": "Teal 100 — Very light tint — subtle surfaces and selected states"
+    },
+    "200": {
+      "$value": "oklch(0.883 0.1078 181.5)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#7FF0DD",
+          "rgb": {
+            "r": 127,
+            "g": 240,
+            "b": 221
+          },
+          "figma-variable": "teal/200"
+        }
+      },
+      "$description": "Teal 200 — Light tint — hover surfaces and subtle borders"
+    },
+    "300": {
+      "$value": "oklch(0.8037 0.1305 181.2)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#3EDAC4",
+          "rgb": {
+            "r": 62,
+            "g": 218,
+            "b": 196
+          },
+          "figma-variable": "teal/300"
+        }
+      },
+      "$description": "Teal 300 — Light-medium — borders, decorative elements, semantic text in dark mode"
+    },
+    "400": {
+      "$value": "oklch(0.7239 0.1256 180.9)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#1FBFAA",
+          "rgb": {
+            "r": 31,
+            "g": 191,
+            "b": 170
+          },
+          "figma-variable": "teal/400"
+        }
+      },
+      "$description": "Teal 400 — Medium-light — placeholder text, subtle icons"
+    },
+    "500": {
+      "$value": "oklch(0.6436 0.1118 181)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#18A391",
+          "rgb": {
+            "r": 24,
+            "g": 163,
+            "b": 145
+          },
+          "figma-variable": "teal/500"
+        }
+      },
+      "$description": "Teal 500 — Base — primary surface color for semantic elements"
+    },
+    "600": {
+      "$value": "oklch(0.5645 0.0966 181.1)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#178879",
+          "rgb": {
+            "r": 23,
+            "g": 136,
+            "b": 121
+          },
+          "figma-variable": "teal/600"
+        }
+      },
+      "$description": "Teal 600 — Medium-dark — text links and interactive labels"
+    },
+    "700": {
+      "$value": "oklch(0.483 0.08 181.1)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#176D61",
+          "rgb": {
+            "r": 23,
+            "g": 109,
+            "b": 97
+          },
+          "figma-variable": "teal/700"
+        }
+      },
+      "$description": "Teal 700 — Dark — text, icons and borders on light backgrounds"
+    },
+    "800": {
+      "$value": "oklch(0.3825 0.0577 181.5)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#174D45",
+          "rgb": {
+            "r": 23,
+            "g": 77,
+            "b": 69
+          },
+          "figma-variable": "teal/800"
+        }
+      },
+      "$description": "Teal 800 — Darker — hover states for filled elements"
+    },
+    "900": {
+      "$value": "oklch(0.285 0.0363 180.9)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#13302B",
+          "rgb": {
+            "r": 19,
+            "g": 48,
+            "b": 43
+          },
+          "figma-variable": "teal/900"
+        }
+      },
+      "$description": "Teal 900 — Very dark — pressed states and deep backgrounds"
+    },
+    "950": {
+      "$value": "oklch(0.2088 0.0193 178.2)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#0E1B18",
+          "rgb": {
+            "r": 14,
+            "g": 27,
+            "b": 24
+          },
+          "figma-variable": "teal/950"
+        }
+      },
+      "$description": "Teal 950 — Near-black — deepest tint, subtle surfaces in dark mode"
+    }
+  },
+  "neutral": {
+    "0": {
+      "$value": "oklch(1 0 89.9)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#FFFFFF",
+          "rgb": {
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "figma-variable": "neutral/0"
+        }
+      },
+      "$description": "Neutral 0 — Pure white — inverted text and on-dark surfaces"
+    },
+    "50": {
+      "$value": "oklch(0.9851 0 89.9)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#FAFAFA",
+          "rgb": {
+            "r": 250,
+            "g": 250,
+            "b": 250
+          },
+          "figma-variable": "neutral/50"
+        }
+      },
+      "$description": "Neutral 50 — Lightest tint — subtle backgrounds and hover overlays"
+    },
+    "100": {
+      "$value": "oklch(0.9006 0 89.9)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#DEDEDE",
+          "rgb": {
+            "r": 222,
+            "g": 222,
+            "b": 222
+          },
+          "figma-variable": "neutral/100"
+        }
+      },
+      "$description": "Neutral 100 — Very light tint — subtle surfaces and selected states"
+    },
+    "200": {
+      "$value": "oklch(0.8172 0 89.9)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#C3C3C3",
+          "rgb": {
+            "r": 195,
+            "g": 195,
+            "b": 195
+          },
+          "figma-variable": "neutral/200"
+        }
+      },
+      "$description": "Neutral 200 — Light tint — hover surfaces and subtle borders"
+    },
+    "300": {
+      "$value": "oklch(0.7348 0 89.9)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#A9A9A9",
+          "rgb": {
+            "r": 169,
+            "g": 169,
+            "b": 169
+          },
+          "figma-variable": "neutral/300"
+        }
+      },
+      "$description": "Neutral 300 — Light-medium — borders, decorative elements, semantic text in dark mode"
+    },
+    "400": {
+      "$value": "oklch(0.65 0 89.9)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#8F8F8F",
+          "rgb": {
+            "r": 143,
+            "g": 143,
+            "b": 143
+          },
+          "figma-variable": "neutral/400"
+        }
+      },
+      "$description": "Neutral 400 — Medium-light — placeholder text, subtle icons"
+    },
+    "500": {
+      "$value": "oklch(0.5658 0 89.9)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#767676",
+          "rgb": {
+            "r": 118,
+            "g": 118,
+            "b": 118
+          },
+          "figma-variable": "neutral/500"
+        }
+      },
+      "$description": "Neutral 500 — Base — primary surface color for semantic elements"
+    },
+    "600": {
+      "$value": "oklch(0.4855 0 89.9)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#5F5F5F",
+          "rgb": {
+            "r": 95,
+            "g": 95,
+            "b": 95
+          },
+          "figma-variable": "neutral/600"
+        }
+      },
+      "$description": "Neutral 600 — Medium-dark — text links and interactive labels"
+    },
+    "700": {
+      "$value": "oklch(0.4017 0 89.9)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#484848",
+          "rgb": {
+            "r": 72,
+            "g": 72,
+            "b": 72
+          },
+          "figma-variable": "neutral/700"
+        }
+      },
+      "$description": "Neutral 700 — Dark — text, icons and borders on light backgrounds"
+    },
+    "800": {
+      "$value": "oklch(0.3171 0 89.9)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#323232",
+          "rgb": {
+            "r": 50,
+            "g": 50,
+            "b": 50
+          },
+          "figma-variable": "neutral/800"
+        }
+      },
+      "$description": "Neutral 800 — Darker — hover states for filled elements"
+    },
+    "900": {
+      "$value": "oklch(0.235 0 89.9)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#1E1E1E",
+          "rgb": {
+            "r": 30,
+            "g": 30,
+            "b": 30
+          },
+          "figma-variable": "neutral/900"
+        }
+      },
+      "$description": "Neutral 900 — Very dark — pressed states and deep backgrounds"
+    },
+    "950": {
+      "$value": "oklch(0.1496 0 89.9)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#0B0B0B",
+          "rgb": {
+            "r": 11,
+            "g": 11,
+            "b": 11
+          },
+          "figma-variable": "neutral/950"
+        }
+      },
+      "$description": "Neutral 950 — Near-black — deepest tint, subtle surfaces in dark mode"
+    },
+    "dark-alpha80": {
+      "$value": "oklch(0.2046 0 89.9 / 80%)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#171717CC",
+          "rgb": {
+            "r": 23,
+            "g": 23,
+            "b": 23
+          },
+          "figma-variable": "neutral/dark-alpha80"
+        }
+      },
+      "$description": "80% opaque dark overlay — modal and drawer backdrops"
+    },
+    "white-alpha80": {
+      "$value": "oklch(1 0 89.9 / 80%)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#FFFFFFCC",
+          "rgb": {
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "figma-variable": "neutral/white-alpha80"
+        }
+      },
+      "$description": "80% opaque white overlay — frosted glass and light overlays"
+    }
+  },
+  "danger": {
+    "50": {
+      "$value": "oklch(0.9779 0.0107 17.3)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#FFF5F5",
+          "rgb": {
+            "r": 255,
+            "g": 245,
+            "b": 245
+          },
+          "figma-variable": "danger/50"
+        }
+      },
+      "$description": "Danger 50 — Lightest tint — subtle backgrounds and hover overlays"
+    },
+    "100": {
+      "$value": "oklch(0.9356 0.0309 17.7)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#FEE2E2",
+          "rgb": {
+            "r": 254,
+            "g": 226,
+            "b": 226
+          },
+          "figma-variable": "danger/100"
+        }
+      },
+      "$description": "Danger 100 — Very light tint — subtle surfaces and selected states"
+    },
+    "300": {
+      "$value": "oklch(0.7872 0.1192 22)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#FD9A97",
+          "rgb": {
+            "r": 253,
+            "g": 154,
+            "b": 151
+          },
+          "figma-variable": "danger/300"
+        }
+      },
+      "$description": "Danger 300 — Light-medium — borders, decorative elements, semantic text in dark mode"
+    },
+    "500": {
+      "$value": "oklch(0.6368 0.2078 25.3)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#EF4444",
+          "rgb": {
+            "r": 239,
+            "g": 68,
+            "b": 68
+          },
+          "figma-variable": "danger/500"
+        }
+      },
+      "$description": "Danger 500 — Base — primary surface color for semantic elements"
+    },
+    "700": {
+      "$value": "oklch(0.5054 0.1905 27.5)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#B91C1C",
+          "rgb": {
+            "r": 185,
+            "g": 28,
+            "b": 28
+          },
+          "figma-variable": "danger/700"
+        }
+      },
+      "$description": "Danger 700 — Dark — text, icons and borders on light backgrounds"
+    },
+    "900": {
+      "$value": "oklch(0.3958 0.1331 25.7)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#7F1D1D",
+          "rgb": {
+            "r": 127,
+            "g": 29,
+            "b": 29
+          },
+          "figma-variable": "danger/900"
+        }
+      },
+      "$description": "Danger 900 — Very dark — pressed states and deep backgrounds"
+    },
+    "950": {
+      "$value": "oklch(0.3123 0.0995 25.7)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#591514",
+          "rgb": {
+            "r": 89,
+            "g": 21,
+            "b": 20
+          },
+          "figma-variable": "danger/950"
+        }
+      },
+      "$description": "Danger 950 — Near-black — deepest tint, subtle surfaces in dark mode"
+    }
+  },
+  "warning": {
+    "50": {
+      "$value": "oklch(0.9873 0.0262 102.2)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#FEFCE8",
+          "rgb": {
+            "r": 254,
+            "g": 252,
+            "b": 232
+          },
+          "figma-variable": "warning/50"
+        }
+      },
+      "$description": "Warning 50 — Lightest tint — subtle backgrounds and hover overlays"
+    },
+    "100": {
+      "$value": "oklch(0.9729 0.0693 103.2)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#FEF9C3",
+          "rgb": {
+            "r": 254,
+            "g": 249,
+            "b": 195
+          },
+          "figma-variable": "warning/100"
+        }
+      },
+      "$description": "Warning 100 — Very light tint — subtle surfaces and selected states"
+    },
+    "300": {
+      "$value": "oklch(0.8838 0.1157 94.6)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#F1D87C",
+          "rgb": {
+            "r": 241,
+            "g": 216,
+            "b": 124
+          },
+          "figma-variable": "warning/300"
+        }
+      },
+      "$description": "Warning 300 — Light-medium — borders, decorative elements, semantic text in dark mode"
+    },
+    "500": {
+      "$value": "oklch(0.7952 0.1617 86)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#EAB308",
+          "rgb": {
+            "r": 234,
+            "g": 179,
+            "b": 8
+          },
+          "figma-variable": "warning/500"
+        }
+      },
+      "$description": "Warning 500 — Base — primary surface color for semantic elements"
+    },
+    "700": {
+      "$value": "oklch(0.5538 0.1207 66.4)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#A16207",
+          "rgb": {
+            "r": 161,
+            "g": 98,
+            "b": 7
+          },
+          "figma-variable": "warning/700"
+        }
+      },
+      "$description": "Warning 700 — Dark — text, icons and borders on light backgrounds"
+    },
+    "900": {
+      "$value": "oklch(0.421 0.0897 57.7)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#713F12",
+          "rgb": {
+            "r": 113,
+            "g": 63,
+            "b": 18
+          },
+          "figma-variable": "warning/900"
+        }
+      },
+      "$description": "Warning 900 — Very dark — pressed states and deep backgrounds"
+    },
+    "950": {
+      "$value": "oklch(0.3207 0.0672 57.7)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#4C290A",
+          "rgb": {
+            "r": 76,
+            "g": 41,
+            "b": 10
+          },
+          "figma-variable": "warning/950"
+        }
+      },
+      "$description": "Warning 950 — Near-black — deepest tint, subtle surfaces in dark mode"
+    }
+  },
+  "success": {
+    "50": {
+      "$value": "oklch(0.9819 0.0181 155.8)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#F0FDF4",
+          "rgb": {
+            "r": 240,
+            "g": 253,
+            "b": 244
+          },
+          "figma-variable": "success/50"
+        }
+      },
+      "$description": "Success 50 — Lightest tint — subtle backgrounds and hover overlays"
+    },
+    "100": {
+      "$value": "oklch(0.9624 0.0434 156.7)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#DCFCE7",
+          "rgb": {
+            "r": 220,
+            "g": 252,
+            "b": 231
+          },
+          "figma-variable": "success/100"
+        }
+      },
+      "$description": "Success 100 — Very light tint — subtle surfaces and selected states"
+    },
+    "300": {
+      "$value": "oklch(0.8431 0.1174 153)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#8DE2A7",
+          "rgb": {
+            "r": 141,
+            "g": 226,
+            "b": 167
+          },
+          "figma-variable": "success/300"
+        }
+      },
+      "$description": "Success 300 — Light-medium — borders, decorative elements, semantic text in dark mode"
+    },
+    "500": {
+      "$value": "oklch(0.7227 0.192 149.6)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#22C55E",
+          "rgb": {
+            "r": 34,
+            "g": 197,
+            "b": 94
+          },
+          "figma-variable": "success/500"
+        }
+      },
+      "$description": "Success 500 — Base — primary surface color for semantic elements"
+    },
+    "700": {
+      "$value": "oklch(0.5273 0.1371 150.1)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#15803D",
+          "rgb": {
+            "r": 21,
+            "g": 128,
+            "b": 61
+          },
+          "figma-variable": "success/700"
+        }
+      },
+      "$description": "Success 700 — Dark — text, icons and borders on light backgrounds"
+    },
+    "900": {
+      "$value": "oklch(0.3925 0.0896 152.5)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#14532D",
+          "rgb": {
+            "r": 20,
+            "g": 83,
+            "b": 45
+          },
+          "figma-variable": "success/900"
+        }
+      },
+      "$description": "Success 900 — Very dark — pressed states and deep backgrounds"
+    },
+    "950": {
+      "$value": "oklch(0.2917 0.0677 152)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#09351A",
+          "rgb": {
+            "r": 9,
+            "g": 53,
+            "b": 26
+          },
+          "figma-variable": "success/950"
+        }
+      },
+      "$description": "Success 950 — Near-black — deepest tint, subtle surfaces in dark mode"
+    }
+  },
+  "info": {
+    "50": {
+      "$value": "oklch(0.9705 0.0142 254.6)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#EFF6FF",
+          "rgb": {
+            "r": 239,
+            "g": 246,
+            "b": 255
+          },
+          "figma-variable": "info/50"
+        }
+      },
+      "$description": "Info 50 — Lightest tint — subtle backgrounds and hover overlays"
+    },
+    "100": {
+      "$value": "oklch(0.9319 0.0316 255.6)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#DBEAFE",
+          "rgb": {
+            "r": 219,
+            "g": 234,
+            "b": 254
+          },
+          "figma-variable": "info/100"
+        }
+      },
+      "$description": "Info 100 — Very light tint — subtle surfaces and selected states"
+    },
+    "300": {
+      "$value": "oklch(0.7788 0.11 257.6)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#8AB9FD",
+          "rgb": {
+            "r": 138,
+            "g": 185,
+            "b": 253
+          },
+          "figma-variable": "info/300"
+        }
+      },
+      "$description": "Info 300 — Light-medium — borders, decorative elements, semantic text in dark mode"
+    },
+    "500": {
+      "$value": "oklch(0.6231 0.188 259.8)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#3B82F6",
+          "rgb": {
+            "r": 59,
+            "g": 130,
+            "b": 246
+          },
+          "figma-variable": "info/500"
+        }
+      },
+      "$description": "Info 500 — Base — primary surface color for semantic elements"
+    },
+    "700": {
+      "$value": "oklch(0.4879 0.1601 264.4)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#3058B9",
+          "rgb": {
+            "r": 48,
+            "g": 88,
+            "b": 185
+          },
+          "figma-variable": "info/700"
+        }
+      },
+      "$description": "Info 700 — Dark — text, icons and borders on light backgrounds"
+    },
+    "900": {
+      "$value": "oklch(0.3462 0.0736 256)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#1E3A5F",
+          "rgb": {
+            "r": 30,
+            "g": 58,
+            "b": 95
+          },
+          "figma-variable": "info/900"
+        }
+      },
+      "$description": "Info 900 — Very dark — pressed states and deep backgrounds"
+    },
+    "950": {
+      "$value": "oklch(0.239 0.056 256.8)",
+      "$extensions": {
+        "caladan": {
+          "hex": "#0C1F39",
+          "rgb": {
+            "r": 12,
+            "g": 31,
+            "b": 57
+          },
+          "figma-variable": "info/950"
+        }
+      },
+      "$description": "Info 950 — Near-black — deepest tint, subtle surfaces in dark mode"
+    }
+  }
 }
